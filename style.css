@@ -1,0 +1,26 @@
+h1, h2 {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h3, p {
+    font-family: 'Inconsolata', monospace;
+}
+
+p {
+    max-width: 70%;
+}
+
+.thumbnail {
+    height: 350px;
+    width: 350px;
+}
+
+@media only screen and (max-width: 450px) {
+    .thumbnail {
+        height: 175px;
+        width: 175px;
+    }
+    p {
+        max-width: 100%;
+    }
+}
